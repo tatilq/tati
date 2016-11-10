@@ -1,0 +1,110 @@
+/* Inserta tu codigo aqui */
+* {outline:1px solid rgba(255,0,0,0);}
+h4{
+	text-align: center;
+	color: #0431B4;
+}
+h5{
+	color: #0431B4;
+}
+p{ 
+	text-align: center;
+	color: #0431B4;
+}
+.header
+{
+	background-color: black;
+	font-family: Arial;
+}
+
+.menu{
+	list-style:none ;
+	padding: 30px;
+	text-align: center;
+}   
+.menu li
+{
+
+	display: inline-block;      
+	margin: 3px;
+}     
+.menu a
+{
+	text-decoration: none;
+	color: white;
+}
+/*submenu con 2 filas */
+
+.submenu{
+	background-color: #BDBDBD;
+	padding: 3%;
+}
+.submenu img{
+	display: inline-block;
+	width: 200px;
+	border: 2px solid black;
+	padding: 2px;
+	margin-top: 10px;
+}
+.submenu img:hover
+{
+		opacity: 0.5;
+	
+}
+
+
+/*Contenido con una fila*/
+.contenido{
+	padding: 3%;
+
+}
+.contenido img{
+	display: inline-block;
+	width: 120px;
+	border: 1px solid black;
+	padding: 2px;
+	margin: 10px;
+	float: right;
+}
+
+.col-9 .imglist
+{
+	display: inline-block;
+	width: 130px;
+}
+
+.col-9 .imglist:hover
+{
+	opacity: 0.5;
+}
+
+
+.contenido .icono{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	left: 800px;
+	bottom: 1010px;
+}
+.contenido .col-3 p{
+	font-size: 12px;
+	font-family: Arial;
+	text-align: left;
+	position: relative;
+	left: 800px;
+	bottom: 1000px;
+	padding-bottom: 8px;
+	margin-top: 5px;
+	
+	
+}
+.contenido .col-3 .h3s{
+
+	position: relative;
+	left: 800px;
+	bottom: 1000px;
+	padding-bottom: 8px;
+	margin-top: 5px;
+	
+	
+}
